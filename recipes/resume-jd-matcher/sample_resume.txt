@@ -1,0 +1,14 @@
+Ananya Sharma
+B.Tech Computer Science, Pune Institute of Technology
+
+Experience
+- Built a FastAPI service that processed 20,000 support tickets per month.
+- Created PostgreSQL dashboards for customer success metrics.
+- Used Python, pandas, and scikit-learn to classify refund requests.
+- Led a 3-member college project team building a document search app with vector embeddings.
+- Deployed internal tools on Docker and GitHub Actions.
+
+Projects
+- Resume Parser: extracted skills and education fields from PDF resumes.
+- Campus Helpdesk Bot: answered student questions using retrieved college policy snippets.
+
