@@ -1,0 +1,15 @@
+Junior AI Engineer
+
+We are hiring a Junior AI Engineer to build LLM-powered internal tools.
+
+Responsibilities
+- Build Python services that call LLM APIs.
+- Design prompts and structured JSON outputs.
+- Use embeddings and retrieval for document search.
+- Work with PostgreSQL and Docker in production.
+- Communicate model limitations and cite evidence for claims.
+
+Nice to have
+- FastAPI experience.
+- Familiarity with support or helpdesk workflows.
+
