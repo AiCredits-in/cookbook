@@ -1,0 +1,65 @@
+name: Recipe bug
+description: A recipe does not run, gives wrong output, or has a mistake.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. **This issue is public.** Never paste your API key or private data. Replace the key with `sk-...`.
+        If the problem is with the AICredits API itself, use the [community repository](https://github.com/AiCredits-in/community/issues/new/choose) instead.
+  - type: dropdown
+    id: recipe
+    attributes:
+      label: Which recipe?
+      options:
+        - resume-jd-matcher
+        - exam-mcq-generator
+        - model-eval-harness
+        - Other or not recipe-specific
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command you ran
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output or error
+      description: The full error or traceback. Remove anything private.
+      render: text
+  - type: input
+    id: env
+    attributes:
+      label: Python version and OS
+      placeholder: Python 3.12, Ubuntu 24.04
+  - type: input
+    id: model
+    attributes:
+      label: Model ID used
+      placeholder: provider/model-name
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for a duplicate.
+          required: true
+        - label: I removed my API key and any private data from this report.
+          required: true

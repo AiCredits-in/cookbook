@@ -1,0 +1,57 @@
+name: Recipe proposal
+description: Propose a new recipe, or ask for one you would like to see.
+title: "[Recipe]: "
+labels: ["new-recipe", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. **This issue is public**, so please do not include API keys or private data.
+        Check [PROJECT_IDEAS.md](https://github.com/AiCredits-in/cookbook/blob/main/PROJECT_IDEAS.md) to see if it is already listed.
+  - type: input
+    id: name
+    attributes:
+      label: Recipe name
+      placeholder: whatsapp-order-bot
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: learn
+    attributes:
+      label: What will people learn?
+      description: For example JSON mode, function calling, streaming, batching, audio or image models.
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+  - type: dropdown
+    id: who
+    attributes:
+      label: Who will build it?
+      options:
+        - I would like to build it
+        - I would like someone else to build it
+        - Not sure yet
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and PROJECT_IDEAS.md for this idea.
+          required: true
