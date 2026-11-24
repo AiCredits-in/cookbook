@@ -43,7 +43,14 @@ Current full recipes:
 
 More ideas are listed in [PROJECT_IDEAS.md](PROJECT_IDEAS.md).
 
-## Contribution Note
+## Contributing
 
-Contributions should keep examples small, runnable, and beginner-friendly. Prefer minimal dependencies, real sample data, clear setup steps, and honest cost notes that point readers to https://aicredits.in/pricing for current prices.
+Contributions are welcome. Keep examples small, runnable, and beginner-friendly. Prefer minimal dependencies, real sample data, clear setup steps, and honest cost notes that point readers to https://aicredits.in/pricing for current prices.
+
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) for what a good recipe looks like.
+- Found a problem with a recipe? [Open a recipe bug](../../issues/new?template=recipe_bug.yml).
+- Have an idea? [Propose a recipe](../../issues/new?template=recipe_request.yml).
+- Questions: [community discussions](https://github.com/AiCredits-in/community/discussions).
+
+**This repository is public. Never commit a real API key.** Keep keys in a local `.env` file, which is git-ignored.
 

@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or share an idea
+    url: https://github.com/AiCredits-in/community/discussions
+    about: Questions and ideas belong in community discussions.
+  - name: Problem with the AICredits API or dashboard
+    url: https://github.com/AiCredits-in/community/issues/new/choose
+    about: API bugs, feature requests and model requests go to the community repository.
+  - name: Account, wallet or payment help
+    url: mailto:support@aicredits.in
+    about: Email us privately. Do not post payment IDs, account emails or API keys in a public issue.
+  - name: Report a security vulnerability
+    url: https://github.com/AiCredits-in/community/security/advisories/new
+    about: Report security problems privately. Never open a public issue for them.
